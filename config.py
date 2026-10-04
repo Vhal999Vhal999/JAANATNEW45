@@ -51,7 +51,7 @@ SUPPORT_CHAT = getenv(
 AUTO_LEAVING_ASSISTANT = getenv(
     "AUTO_LEAVING_ASSISTANT",
     "true"
-).lower() == "true"
+).lower() == "False"
 
 # Get from developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID")
